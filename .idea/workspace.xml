@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e242a418-28d7-4e1e-aea9-7bc263af2aee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/podtopa.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
@@ -55,7 +54,7 @@
       <updated>1702127197022</updated>
       <workItem from="1702127199035" duration="2180000" />
       <workItem from="1702205053133" duration="3332000" />
-      <workItem from="1702240104042" duration="3662000" />
+      <workItem from="1702240104042" duration="4651000" />
     </task>
     <servers />
   </component>
