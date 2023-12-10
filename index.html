@@ -1,172 +1,212 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Résumé</title>
+    <title>Resume Anastasiia Podtopa</title>
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-― Hello World! &#x1F609;
-<main>
-    <div class="resume">
-        <div class="container">
-            <div class="resume__block">
-                <h1 class="contact-info__header">Bulka</h1>
-                <h3 class="contact-info__sub-header">Senior Hooman Manager</h3>
+<main class="content" id="content">
+    <div class="content__left content-left">
+        <header class="content-left__header header">
+            <img src="./assets/podtopa.jpg" alt="Anastasiia Podtopa" class="header__image">
+            <div id="circle" class="header__circle"></div>
+            <h1 class="header__title">Anastasiia Podtopa</h1>
+        </header>
 
-                <div class="contact_info_container fh">
-                    <div class="contact-info__block"></div>
+        <section class="content-left__section section">
+            <h3 class="section__title">
+                <i class="fas fa-user"></i> About
+            </h3>
+            <p class="section__text">
+                I find common ground with people and know how to work in a team. I started my programming way at school with
+                languages like Turbo Pascal and Python. In my first year at university, I studied a C++ language. At the moment,
+                I became interested in JS, took several courses from
+                <a href="https://www.coursera.org/">Coursera</a>,
+                <a href="https://courses.prometheus.org.ua/courses/course-v1:Prometheus+CS50+2021_T1/course/">Prometheus: CS50</a>
+                and <a href="https://learn.javascript.ru/">Learn JS</a>.
+            </p>
+        </section>
 
-                    <div class="contact-info__block contact-info__block--center">
-                        <img
-                                class="contact-info__avatar"
-                                src="assets/avatar.png"
-                                alt="Avatar"
-                        />
-                        <a href="" rel="author" class="contact-info__item">
-                            <div class="contact-info__item-icon-wrapper">
-                                <svg
-                                        class="contact-info__item-icon"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 384 512"
-                                >
-                                    <path
-                                            d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192
-        0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535
-        13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817
-        80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
-                                    ></path>
-                                </svg>
-                            </div>
-                            <span>Lviv, Ukraine</span>
-                        </a>
-                        <a
-                                href="https://ua.linkedin.com/company/binary-studio_241166"
-                                rel="author"
-                                class="contact-info__item"
-                        >
-                            <div class="contact-info__item-icon-wrapper">
-                                <svg
-                                        class="contact-info__item-icon"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                >
-                                    <path
-                                            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9
-        480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4
-        416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96
-        102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1
-        243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9
-        54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2
-        0 79.7 44.3 79.7 101.9V416z"
-                                    ></path>
-                                </svg>
-                            </div>
-                            <span>binary-studio</span>
-                        </a>
-                    </div>
+        <section class="content-left__section section contacts">
+            <h3 class="section__title"><i class="fas fa-phone"></i> Contacts</h3>
+            <ul class="contacts__list list">
+                <li class="list__item">
+            <span class="list__item-title">Phone</span>
+                    <span class="list__item-content">
+              <a href="tel:+380963833863">+38 096 383 38 63</a>
+            </span>
+                </li>
+                <li class="list__item list-item">
+            <span class="list-item__title">Location</span>
+                    <span class="list-item__content">Kyiv</span>
+                </li>
 
-                    <div class="contact-info__block"></div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="resume__block">
-                <div class="intro">
-                    <div class="intro__icon-wrapper">
-                        <svg
-                                class="intro__icon"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 512 512"
-                        >
-                            <path
-                                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7
-            24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0
-            26.5 21.5 48 48 48h128c26.5 0 48-21.5
-            48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64
-            64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6
-            32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5
-            48-48V304c0-26.5-21.5-48-48-48z"
-                            ></path>
-                        </svg>
-                    </div>
-                    <p class="intro_text">
-                        Meow. I am a Binary Studio cat. Still got 7 lives. Work in IT,
-                        Full Stack Evil, all I do is sleep and try to help out hoomans
-                        with their projects whenever they need me.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="resume__block">
-                <div class="skills">
-                    <h3 class="skills__header">Skills</h3>
-                    <p class="skills__text">
-                        Sleep, eat, more sleep, meow, mrrr, purr.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-        <div class="resume__block">
-            <div class="main-info fh">
-                <div class="experiences"></div>
+                <li class="list__item list-item"><span class="list-item__title">Email</span>
+                    <span class="list-item__content"><a href="mailto:podtepaa@gmail.com">podtepaa@gmail.com</a></span>
+                </li>
 
-                <div class="additional-info fv"></div>
-            </div>
-        </div>
-            <h3 class="experiences__header">Experience</h3>
-            <div class="experiences__company">
-                <div class="experiences__company-header">
-    <span class="experiences__company-header-durability"
-    >For whole my life</span
-    >
-                    <h3 class="experiences__company-header-name">BinaryStudio</h3>
-                </div>
+                <li class="list__item list-item"><span class="list-item__title">t.me</span>
+                    <span class="list-item__content"><a href="https://t.me/martson_n">martson_n</a></span>
+                </li>
+            </ul>
+        </section>
 
-                <div class="experiences__company-project">
-    <span class="experiences__company-project-role"
-    >Binary Studio Cat</span
-    >
-                    <h3 class="experiences__company-project-name">Hooman project</h3>
-                    <ul class="experiences__company-project-responsibilities">
-                        <li>Supported hoomans</li>
-                        <li>Slept all the time</li>
-                        <li>Lied on the keyboard</li>
-                        <li>Watched my hoomans working</li>
-                    </ul>
-                </div>
-            </div><div class="additional-info fv">
-            <div class="additional-info__education">
-                <h3 class="additional-info__education-header">Education</h3>
-                <div class="additional-info__education-university">
-      <span class="additional-info__education-university-durability"
-      >2021</span
-      >
-                    <h3 class="additional-info__education-university-speciality">
-                        Cat track
-                    </h3>
-                    <p class="additional-info__education-university-name">
-                        Binary Studio Academy
-                    </p>
-                </div>
-            </div>
+        <section class="content-left_section section skills">
+            <h3 class="section__title">
+                <i class="fas fa-rocket"></i>
+                Skills
+            </h3>
+            <ul class="contacts__list list">
+                <li class="list__item list-item">
+            <span class="list-item__title">
+              <i class="fab fa-js-square"></i>
+              JavaScript
+            </span>
+                </li>
 
-            <div class="additional-info__languages">
-                <h3 class="additional-info__languages-header">Languages</h3>
-                <p class="additional-info__languages-item">Meow dialect</p>
-                <p class="additional-info__languages-item">
-                    Ukrainian (understand)
-                </p>
-                <p class="additional-info__languages-item">
-                    English (don't understand)
-                </p>
-            </div>
-        </div>
+                <li class="list__item list-item">
+            <span class="list-item__title">
+              <i class="fab fa-html5"></i>
+              HTML5
+            </span>
+                </li>
+
+                <li class="list__item list-item">
+            <span class="list-item__title">
+              <i class="fab fa-css3-alt"></i>
+              CSS3
+            </span>
+                </li>
+
+                <li class="list__item list-item">
+            <span class="list-item__title">
+              <i class="fab fa-github"></i>
+              Git
+            </span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="content-left_section section languages">
+            <h3 class="section__title">
+                <i class="fas fa-language"></i>
+                Languages
+            </h3>
+            <ul class="contacts__list list">
+                <li class="list__item list-item">
+            <span class="list-item__title">
+              English
+            </span>
+                    <span class="list-item__content">
+              B1
+            </span>
+                </li>
+
+                <li class="list__item list-item">
+            <span class="list-item__title">
+              Ukrainian
+            </span>
+                    <span class="list-item__content">
+              native
+            </span>
+                </li>
+
+            </ul>
+        </section>
     </div>
+
+    <div class="content__right content-right">
+
+        <section class="content-right_section section experience">
+            <h3 class="section__title">
+                <i class="fas fa-user-graduate"></i>
+                Experience
+            </h3>
+            <ul class="experience__list list">
+                <li class="list__item list-item">
+            <span class="list-item__title">
+            <b> Internship at TechMagic Company</b>
+            </span>
+                    <p class="list-item__content">
+                        <b>Jun 2022 - Aug 2022</b>
+                        <br> Improved my skills in JS, CSS, and HTML. Developed
+                        <br> projects using the following technologies: TypeScript,
+                        <br> Angular, Node.js, Express, MongoDB, Mongoose.
+                        <br>
+                        <br><em>Tech stack: JS, CSS, HTML, TypeScript, Angular, Node.js,
+                        <br> Express, MongoDB, Mongoose</em>
+                    </p>
+                </li>
+
+                <li class="list__item list-item">
+            <span class="list-item__title">
+                <b>IT Basics Course of GlobalLogic</b>
+            </span>
+                    <p class="list-item__content">
+                        <b>Mar 2022 - Apr 2022</b>
+                        <br> Have learned about modern trends in the IT industry, how
+                        <br> projects work and how communicate with customers. Also, I
+                        <br> have attended lectures, such as Introduction to Agile and
+                        <br> Project Management
+                        <br>
+                        <br> <em> Tech stack: JS, CSS, HTML, Scrum</em>
+                    </p>
+                </li>
+
+                <li class="list__item list-item">
+            <span class="list-item__title">
+                <b>Front-End Courses of EPAM System</b>
+            </span>
+                    <p class="list-item__content">
+                        <b>Nov 2021 - Apr 2022</b>
+                        <br> Have attended Front-End classes and improved my skills in
+                        <br> JS, CSS, and HTML. I've developed studying projects using
+                        <br> vanilla JS and preprocessors, such as SASS. Have learned
+                        <br> about the system of version control (Git) and the Scrum
+                        <br>ceremonies.
+                        <br>
+                        <br><em>Tech stack: JS, CSS, SASS, HTML, Scrum, Git</em>
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="content-right_section section education">
+            <h3 class="section__title">
+                <i class="fas fa-user-graduate"></i>
+                Education
+            </h3>
+            <ul class="education__list list">
+                <li class="list__item list-item">
+            <span class="list-item__title">
+                <b>National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute"</b>
+            </span>
+                    <p class="list-item__content">
+                        <b>2020 - 2024</b>
+                        <br> Institute of Telecommunication Systems Specialty Telecommunications and Radio Engineering
+                        <br> Department of Information and Communication Technologies and Systems
+                    </p>
+                </li>
+
+                <li class="list__item list-item">
+            <span class="list-item__title">
+                <b>Fastiv Academic Lyceum №9</b>
+            </span>
+                    <p class="list-item__content">
+                        I graduated from school with a gold medal. I have a certificate with honors and a good average score
+                    </p>
+                </li>
+            </ul>
+        </section>
     </div>
+
+    <footer class="content__copyrighting">
+        <i class="far fa-copyright"></i>
+        2023 <a href="https://github.com/Podtopa">Anastasiia Podtopa</a>
+    </footer>
 </main>
+<script src="index.js"></script>
 </body>
 </html>
